@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Andre Carlucci</Authors>
+    <Company>MVP</Company>
+    <Description>Subs for unit testing AspNetCore HttpContext</Description>
+    <PackageProjectUrl>https://github.com/andrecarlucci/HttpContextStubs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andrecarlucci/HttpContextStubs</RepositoryUrl>
+    <PackageTags>asp.net core, httpcontext, tdd, unit-testing, stubs, fake</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
